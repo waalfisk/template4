@@ -1,7 +1,5 @@
 FROM ubuntu:xenial
 
-LABEL maintainter="tinkercode@gmail.com"
-
 #Requirements
 RUN apt-get update \
  && apt-get install -y --no-install-recommends apt-utils \
