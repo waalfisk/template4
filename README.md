@@ -21,6 +21,11 @@ Requires execution rights for `config.sh`.
 For example, run `chmod u+x config.sh` to call `./config.sh ...`.
 Otherwise call `bash config.sh ...`.
 
+Trigger manually
+```
+source config.conf
+docker exec -it "${containername}" bash /root/script.sh
+```
 
 ### script.sh
 Is executed as cron job.
